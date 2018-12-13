@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/default_spacing"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/product_name_et"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/product_name" />
+
+    <EditText
+        android:id="@+id/product_price_et"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/edit_text_vertical_spacing"
+        android:hint="@string/product_price_eg_49"
+        android:inputType="numberDecimal"
+        android:maxLength="3" />
+
+    <EditText
+        android:id="@+id/product_quantity_et"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/edit_text_vertical_spacing"
+        android:hint="@string/product_quantity_eg_54"
+        android:inputType="numberDecimal"
+        android:maxLength="2" />
+
+    <EditText
+        android:id="@+id/supplier_name_et"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/edit_text_vertical_spacing"
+        android:hint="@string/supplier_name" />
+
+    <EditText
+        android:id="@+id/supplier_phone_et"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/edit_text_vertical_spacing"
+        android:hint="@string/supplier_phone_eg_9999988888"
+        android:inputType="numberDecimal"
+        android:maxLength="10" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginTop="@dimen/default_spacing">
+
+        <TextView
+            android:id="@+id/query_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:text="@string/query_data" />
+
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/insert_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/insert_btn_txt"
+            android:layout_marginRight="@dimen/default_spacing"/>
+
+        <Button
+            android:id="@+id/query_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/query_btn_txt" />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Inventory App 1</string>
+    <string name="product_name">Product Name</string>
+    <string name="product_price_eg_49">Product Price eg: 49</string>
+    <string name="product_quantity_eg_54">Product Quantity eg: 54</string>
+    <string name="supplier_name">Supplier Name</string>
+    <string name="supplier_phone_eg_9999988888">Supplier phone eg:9999988888</string>
+    <string name="query_data">Query Data</string>
+    <string name="insert_btn_txt">insert</string>
+    <string name="query_btn_txt">query</string>
+    <string name="success">Query Successful</string>
+    <string name="failed">Query failed</string>
+</resources>
